@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <link rel="stylesheet" href="cfty.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400&display=swap" rel="stylesheet">
+    <title>Portfolio</title>
+   
+</head>
+<body>
+    <section>
+        <section>
+            <header>
+                <div class="logo">
+                   <a href="#"><span class="balablue">ARC</span>ANE</a>
+                </div>
+                <div class="ab">
+                   <a href="#">About</a>
+                   <div class="ko"></div>
+                </div>
+                <div id="dead" onclick="div()"  class="conus animate__animated animate__bounce">
+                    <a href="#">Contact Us</a>
+                </div>
+            </header>
+            <div id="evil" class="evil">
+                <div class="me">
+                    <div id="deads" onclick="divs()" class="div1s">
+                        <div class="thankgod">
+                           <div id="we" class="dive"></div>
+                           <div id="wen" class="divee"></div>
+                        </div>
+                    </div>
+                    <input type="text" placeholder="Email" id="emai"><br>
+                    <input type="text" placeholder="Phone" id="phon"><br>
+                    <input type="text" placeholder="Message" id="messag"><br>
+                    <button type="submit" class="but">Submit</button>
+                </div>
+            </div>
+            <div class="body">
+                <div class="fade-in-text animate__slideInLeft" >
+                   <p>Hi, my name <br>
+                   is Arcane.</p>
+                   <div class="ye"></div>
+                   <div class="yu">
+                    <span class="sharpi"> </span>
+                   </div>
+                   <div class="yea"></div>
+                </div>
+                <img src="Screenshot_20210409-125015_1.png" alt="" class="animate__animated animate__bounce">
+            </div>
+            <!-- <div>
+                <div>
+                  <h1>Frontend Developer</h1>
+                  <p>I like to code things from scratch, and enjoy bringing ideas to life in the browser.</p>
+                </div>
+                <div>
+                  <h1>Languages I speak:</h1>
+                  <p>HTML, CSS, JAVASCRIPT</p>
+                </div>
+                <div>
+                  <h1>Dev Tools:</h1>
+                </div>
+            </div> -->
+        </div> 
+       
+            <script>
+                function div(){
+                    let div = document.getElementById('evil')
+                    const close = document.getElementById('x')
+                    const open = document.getElementById('dead')
+                    let left = document.getElementById('deads')
+                    if (div.style.display = 'none') {
+                        div.style.display = 'block'
+                        left.style.display = 'flex'
+                        // open.style.display = 'none'
+                    }
+                }
+                          function divs(){
+                            let div = document.getElementById('evil').style.display = 'none'
+                            const open = document.getElementById('dead').style.display = 'flex'
+                            let left = document.getElementById('deads').style.display = 'none'
+                    }
+        
+            </script>
+                <script>
+                    function divi(){
+                        let div = document.getElementById('evils')
+                        // const close = document.getElementById('x')
+                        const open = document.getElementById('deadi')
+                        let left = document.getElementById('deadsi')
+                        if (div.style.display = 'none') {
+                            div.style.display = 'flex'
+                            left.style.display = 'flex'
+                            // open.style.display = 'none'
+                        }
+                    }
+                              function divsi(){
+                                let div = document.getElementById('evils').style.display = 'none'
+                                const open = document.getElementById('dead').style.display = 'flex'
+                                let left = document.getElementById('deads').style.display = 'none'
+                        }
+            
+                </script>
+        </section>
+    </section>
+</body>
+</html>
